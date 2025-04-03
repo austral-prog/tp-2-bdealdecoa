@@ -1,12 +1,9 @@
-def earth():
+def compare_countries(country1, country2):
+    x_first = country1 < country2  # True if country1 comes first alphabetically
+    y_first = country2 < country1  # True if country2 comes first alphabetically
 
-país_x = "Bangladesh"
-país_y = "Barbados"
+    print(f"The result of {country1} comes first in the dictionary than {country2} is {x_first}.")
+    print(f"The result of {country2} comes first in the dictionary than {country1} is {y_first}.")
 
-# Verificar cuál viene primero en orden alfabético
-x_first = país_x < país_y
-y_first = país_y < país_x
-
-# Imprimir los resultados en el formato especificado
-print(f"The result of {país_x} comes first in the dictionary than {país_y} is {x_first}.")
-print(f"The result of {país_y} comes first in the dictionary than {país_x} is {y_first}.")
+# Example usage
+compare_countries("Bangladesh", "Barbados")
