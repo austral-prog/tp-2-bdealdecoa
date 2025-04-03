@@ -9,7 +9,7 @@ def change():
     centavos = int(round((vuelto - pesos) * 100))  
 
     # Imprimir resultados
-    print("\nVuelto:")
+    print("\nVuelto")
     print(" ")
     print(f"Pesos: {pesos}")
     print(f"Centavos: {centavos}")
