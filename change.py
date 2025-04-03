@@ -10,6 +10,7 @@ def change():
 
     # Imprimir resultados
     print("\nVuelto:")
+    print(" ")
     print(f"Pesos: {pesos}")
     print(f"Centavos: {centavos}")
 
