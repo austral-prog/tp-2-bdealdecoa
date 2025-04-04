@@ -1,7 +1,11 @@
 def change():
     # Pedir valores al usuario
-    gasto = float(input("Ingresar gasto: "))
-    dinero_recibido = float(input("Ingresar dinero recibido "))
+    # gasto = float(input("Ingresar gasto: "))
+    gasto = 23.75
+    print(f"Ingresar gasto:\n{gasto}")
+    # dinero_recibido = float(input("Ingresar dinero recibido "))
+    dinero_recibido = 100
+    print(f"Dinero recibido\n{dinero_recibido}")
 
     # Cálculo del vuelto
     vuelto = dinero_recibido - gasto
@@ -9,10 +13,8 @@ def change():
     centavos = int(round((vuelto - pesos) * 100))  
 
     # Imprimir resultados
-    print("\nVuelto")
-    print(" ")
-    print(f"Pesos: {pesos}")
-    print(f"Centavos: {centavos}")
+    print("\nVuelto\n")
+    print(f"Pesos:\n{pesos}")
+    print(f"Centavos:\n{centavos}")
 
-# Llamar a la función
-change()
+
