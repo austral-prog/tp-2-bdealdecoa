@@ -1,7 +1,7 @@
 def change():
     # Pedir valores al usuario
     gasto = float(input("Ingresar gasto: "))
-    dinero_recibido = float(input("Ingresar dinero recibido: "))
+    dinero_recibido = float(input("Ingresar dinero recibido "))
 
     # Cálculo del vuelto
     vuelto = dinero_recibido - gasto
